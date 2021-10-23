@@ -7,9 +7,15 @@ const app = express();
 
 const { db } = require('./Develop/db/db.json');
 
-app.get('/api/db', (req,res) => {
-    console.log(req.query);
-    res.json(db);
+app.get('/api/notes', (req,res) => {
+    const result = db;
+    if(result){
+        res.json(result);
+    }else{
+        res.send(404);
+
+    }
+   
 });
 
 

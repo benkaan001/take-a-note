@@ -5,6 +5,16 @@ const app = express();
 // const apiRoutes = require('./routes/apiRoutes');
 // const htmlRoutes = require ('./routes/htmlRoutes');
 
+// parse incoming string or array data
+app.use(express.urlencoded({ extended: true}));
+//parse incoming JSON data
+app.use(express.json());
+
+const fs = require('fs');
+const path = require('path');
+
+
+
 const { db } = require('./Develop/db/db.json');
 
 app.get('/api/notes', (req,res) => {
@@ -18,7 +28,23 @@ app.get('/api/notes', (req,res) => {
    
 });
 
+app.post('/api/notes', (req,res) =>{
+    // req.body holds the incoming content
+    console.log(req.body);
 
+    //add note to json file and notes array in this function
+    const note = createNewNote(req.body, notes);
+    res.json(note);
+
+});
+
+function createNewNote(body, notesArray) {
+    const note = body;
+    notesArray.push(note);
+
+    //return finsihed code to post route for response
+    return note;
+};
 
 
 app.listen( PORT, () => {

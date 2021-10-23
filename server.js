@@ -11,26 +11,11 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 app.use(express.static('public'));
 
-const fs = require('fs');
-const path = require('path');
 
 
 
-const { db } = require('./Develop/db/db.json');
 
 
-
-function createNewNote(body, notesArray) {
-    const note = body;
-    notesArray.push(note);
-    fs.writeFileSync(
-        path.join(__dirname, './db/db.json'),
-        JSON.stringify({ notes: notesArray }, null, 2)
-    );
-
-    //return finsihed code to post route for response
-    return note;
-};
 
 
 
@@ -44,4 +29,4 @@ app.listen( PORT, () => {
     console.log( `API server now on port ${PORT}!`);
 });
 
-// module.exports = { createNewNote };
+

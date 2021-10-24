@@ -1,9 +1,19 @@
 {
   "notes": [
     {
-      "title": "dafd",
-      "text": "dadf",
-      "id": "a925462e-0113-41e2-9d4f-b8ada888242e"
+      "title": "Hit the gym!!!",
+      "text": "Don't forget the water bottle!! ",
+      "id": "2fc16255-c45e-4c5f-aece-98cc13228d7d"
+    },
+    {
+      "title": "Stop by the store.",
+      "text": "Don't forget the Cool Whip!!!",
+      "id": "2ef40fdc-e9c8-457d-850a-0c45857b89b4"
+    },
+    {
+      "title": "Check-in with the recruiter.",
+      "text": "Ask about the benefits package!",
+      "id": "41ad445e-740e-4fa2-8a2c-8ed6eaf63b1a"
     }
   ]
 }

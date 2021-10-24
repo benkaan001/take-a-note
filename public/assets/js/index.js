@@ -1,4 +1,4 @@
-const { response } = require("express");
+
 
 let noteTitle;
 let noteText;
@@ -51,7 +51,7 @@ const saveNote = (note) =>
   }).
   then(postResponse => {
     console.log(postResponse);
-    alert('Thank you for adding a note!');
+    alert('You have just added a new note!');
   });
 
 const deleteNote = (id) =>

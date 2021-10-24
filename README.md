@@ -5,6 +5,7 @@
   * [Description](#description)
   * [Technologies](#technologies)
   * [Installation](#installation)
+  * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Email](#email)
@@ -13,7 +14,7 @@
 
   ## Description
   
-  The purpose of this project is build the backend functionality of a note taking application. 
+  The purpose of this project is build the entire backend functionality of a note taking application. 
 
 
 
@@ -30,7 +31,7 @@
   ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
   ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
-  ![UUID `npm` package](https://www.npmjs.com/package/uuid)
+  [UUID `npm` package](https://www.npmjs.com/package/uuid)
 
 
 
@@ -48,6 +49,12 @@
 
   `<npm install uuid>`
 
+  ## Usage
+
+  Please run the following command on your terminal to initate the server:
+
+
+  `<npm start>`
 
 
 
@@ -58,6 +65,9 @@
 
   ## Tests
 
+  ![demo gif]()
+  
+  Check out the deployed application on -[heroku](https://thawing-sands-93834.herokuapp.com/notes)
  
 
 

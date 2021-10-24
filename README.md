@@ -65,7 +65,7 @@
 
   ## Tests
 
-  ![demo gif]()
+  ![demo gif](https://github.com/benkaan001/take-a-note/blob/main/take-a-note.gif)
   
   Check out the deployed application on -[heroku](https://thawing-sands-93834.herokuapp.com/notes)
  

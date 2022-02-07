@@ -5,11 +5,9 @@
   * [Description](#description)
   * [Technologies](#technologies)
   * [Installation](#installation)
-  * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Email](#email)
-  * [GitHub](#GitHub)
   * [License](#license)
 
   ## Description
@@ -31,7 +29,6 @@
   ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
   ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
-  [UUID `npm` package](https://www.npmjs.com/package/uuid)
 
 
 
@@ -39,23 +36,9 @@
 
   ## Installation
 
-  Please follow these steps to install the necessary npm packages:
-
-  `< git clone https://github.com/benkaan001/take-a-note.git>`
-
-  `<npm install>`
-
-  `<npm install express>`
-
-  `<npm install uuid>`
-
-  ## Usage
-
-  Please run the following command on your terminal to initate the server:
-
-
-  `<npm start>`
-
+ At the root of the directory, run `npm install` to install the dependencies highlighted in `package.json` file.
+ 
+  Run `npm start` to initate the server:
 
 
   ## Contributing
@@ -74,9 +57,6 @@
   ## Email
 
   For questions and feedback, please contact me via [my email](mailto:benkaan001@gmail.com) or [my GitHub](https://www.github.com/benkaan001)
-  
-
-  ## GitHub
 
   :octocat: [Ben Kaan](https://www.github.com/benkaan001)
   
